@@ -1,0 +1,29 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "search for food recipes",
+  "default":"index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "keywords": [
+    "food",
+    "pizza",
+    "recipes",
+    "humberger",
+    "soup"
+  ],
+  "author": "mohamed",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.4.1",
+    "parcel": "^2.4.1"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "core-js": "^3.21.1",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
